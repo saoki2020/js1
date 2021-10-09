@@ -11,7 +11,6 @@
   console.log("現在持っているタスク一覧");
   console.log("========================");
   tasks.forEach(task => {
-    const key = Object.keys(task);
     console.log(`[内容]：${task.matter}、[ジャンル]：${task.genre}`);
     });
   }
