@@ -2,7 +2,7 @@
 {
   const task_list = ["掃除", "買い物", "散歩"];
 
-  let show_task = () => {
+  const show_task = () => {
     console.log("========================");
     console.log("現在持っているタスク一覧");
     console.log("========================");
